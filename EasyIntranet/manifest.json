@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "EasyIntranet",
+  "description": "This extension allows easy access to intranet",
+  "version": "1.0",
+  "author" : "Illuminati",
+
+  "browser_action": {
+    "default_icon": "images/e1.png",
+	"default_popup":"Index.html"
+	},
+  "background": {
+	"scripts" : ["js/tab.js","js/jquery-1.6.3.min.js"]
+	},
+	"background" : {
+	"css" : ["css/styles.css"]
+	},
+	"permissions" : [
+	"tabs",
+	"bookmarks"
+	]
+}
